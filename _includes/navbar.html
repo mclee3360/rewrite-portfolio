@@ -1,0 +1,58 @@
+<div class="row navbar-row">
+    <div class="col content-col">
+        <div class="row">
+            <div class="col">
+                <h2 class="nav-header">{{ site.data.menu.name }}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-5 nav-col">
+                <div class="row nav-section-row">
+                    <div class="col">
+                        <div class="row nav-row">
+                            <div class="col">
+                                <a href="#">
+                                    {{ site.data.menu.showcase }}
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row nav-row">
+                            <div class="col">
+                                <a href="#">
+                                    {{ site.data.menu.all }}
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row nav-row">
+                            <div class="col">
+                                <a href="#">
+                                    {{ site.data.menu.about }}
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col contact-col">
+                <div class="row h-100">
+                    <div class="col contact-table h-100">
+                        <div class="contact-cell h-100">
+                            <div class="row contact-row">
+                                <div class="col">
+                                    {{ site.email }}
+                                    <img class="contact-icon" src="{{ site.data.menu.mail_icon }}" />
+                                </div>
+                            </div>
+                            <div class="row contact-row">
+                                <div class="col">
+                                    {{ site.phone }}
+                                    <img class="contact-icon" src="{{ site.data.menu.phone_icon }}" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

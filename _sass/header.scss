@@ -1,0 +1,58 @@
+@import 'globals';
+
+$navbar-padding: 1rem;
+$navbar-text-color: white;
+$contact-font-size: 0.75rem;
+$contact-img-spacing: 0.25rem;
+
+.navbar-row {
+    background-color: $header-color;
+    color: $navbar-text-color;
+    padding-top: $navbar-padding;
+    padding-bottom: $navbar-padding;
+}
+
+.nav-section-row a {
+    color: $navbar-text-color;
+    text-decoration: underline;
+}
+
+.contact-col {
+    text-align: right;
+    font-size: $contact-font-size;
+}
+
+.contact-table {
+    display: table;
+}
+
+.contact-cell {
+    float: none;
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+.contact-icon {
+    margin-left: $contact-img-spacing;
+}
+
+.header-row {
+    height: $header-height;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-tint {
+    background-color: $tint-color;
+}
+
+.header-col {
+    display: table;
+}
+
+.header-title-div {
+    float: none;
+    display: table-cell;
+    vertical-align: bottom;
+}

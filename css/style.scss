@@ -1,0 +1,23 @@
+---
+---
+$base-size: 16px;
+
+html {
+    font-size: $base-size;
+}
+
+@import 'globals';
+@import 'header';
+
+.content-col {
+    margin-left: $row-margin-side;
+    margin-right: $row-margin-side;
+}
+
+// Small devices (Portrait phones or less)
+@media (max-width: 767.98px) {
+    .content-col {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+}
