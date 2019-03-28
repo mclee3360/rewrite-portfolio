@@ -1,0 +1,25 @@
+@import 'globals';
+
+$thumbnail-width: 14rem;
+$thumbnail-divide: 1rem;
+
+.showcase-row {
+    margin-top: $row-margin-vert;
+}
+
+.thumbnail-div {
+    width: $thumbnail-width;
+}
+
+.thumbnail-img {
+    width: 100%;
+    height: auto;
+}
+
+// Vertical Phones
+@media (max-width: 576px) {
+    .thumbnail-div {
+        margin: auto;
+        margin-bottom: $thumbnail-divide;
+    }
+}

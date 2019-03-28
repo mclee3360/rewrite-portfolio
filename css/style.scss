@@ -8,16 +8,30 @@ html {
 
 @import 'globals';
 @import 'header';
+@import 'showcase';
 
 .content-col {
     margin-left: $row-margin-side;
     margin-right: $row-margin-side;
 }
 
-// Small devices (Portrait phones or less)
-@media (max-width: 767.98px) {
+.section-row {
+    margin-top: $section-margins;
+    margin-bottom: $section-margins;
+}
+
+// Less than desktop monitor
+@media (max-width: 1200px) {
     .content-col {
-        margin-left: 0rem;
-        margin-right: 0rem;
+        margin-left: $row-margin-side-tablet;
+        margin-right: $row-margin-side-tablet;
+    }
+}
+
+// Vertical phones or less
+@media (max-width: 576px) {
+    .content-col {
+        margin-left: $row-margin-side-mobile;
+        margin-right: $row-margin-side-mobile;
     }
 }
