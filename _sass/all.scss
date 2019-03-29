@@ -1,0 +1,13 @@
+@import 'globals';
+
+#table {
+    width: 100%;
+}
+
+
+// Vertical phones or less
+@media (max-width: 576px) {
+    #table {
+        width: 90%;
+    }
+}
