@@ -6,16 +6,16 @@ img: /assets/img/test-header-bg.png
 <div class="row section-row">
     <div class="col content-col">
         {% for entry in site.data.showcase %}
-        <div class="row showcase-row">
+        <div class="row subsection-row">
             <div class="thumbnail-div">
                 <img class="thumbnail-img" src="{{ entry.img }}"></img>
             </div>
             <div class="col-md showcase-text-col">
                 <a href="{{ entry.url }}" target="_blank">
-                    <h3 class="showcase-title">{{ entry.title }}</h3>
+                    <h3 class="section-title">{{ entry.title }}</h3>
                 </a>
-                <h6 class="showcase-subtitle">Role: {{ entry.role }}</h6>
-                <p class="showcase-body">{{ entry.text }}</p>
+                <h6 class="section-subtitle">Role: {{ entry.role }}</h6>
+                <p class="section-body">{{ entry.text }}</p>
             </div>
         </div>
         {% endfor %}

@@ -4,3 +4,15 @@ permalink: about
 title: About Rewrite
 img: /assets/img/test-header-bg.png
 ---
+<div class="row section-row">
+    <div class="col content-col">
+        {% for section in site.data.about %}
+        <div class="row subsection-row">
+            <div class="col-md">
+                <h2 class="section-title">{{ section.title }}</h2>
+                <p class="section-body">{{ section.text }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

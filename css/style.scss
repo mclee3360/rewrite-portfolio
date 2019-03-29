@@ -21,6 +21,10 @@ html {
     margin-bottom: $section-margins;
 }
 
+.subsection-row {
+    margin-top: $row-margin-vert;
+}
+
 // Less than desktop monitor
 @media (max-width: 1200px) {
     .content-col {
