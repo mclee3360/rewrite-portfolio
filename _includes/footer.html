@@ -1,0 +1,24 @@
+<div class="row footer-row">
+    <div class="col">
+        <div class="pagetop_container">
+            <a href="#top" class="pagetop_link">
+                <div class="pagetop_link_container">
+                    {% assign svg_dim = "2.5rem" %}
+                    <div class="svg_container">
+                        <svg width="{{ svg_dim }}" height="{{ svg_dim }}" viewbox="0 0 100 100">
+                            <circle class="pagetop_icon" cx="50" cy="50" r="45"></circle>
+                            <polygon
+                                points="20,65
+                                        50,25
+                                        80,65
+                                        50,50"
+                                class="pagetop_icon_pointer">
+                            </polygon>
+                        </svg>
+                    </div>
+                    <span class="pagetop_text">{{ site.data.menu.pagetop_text }}</span>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>

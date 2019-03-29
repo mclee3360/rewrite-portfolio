@@ -4,6 +4,8 @@ $navbar-padding: 1rem;
 $navbar-text-color: white;
 $contact-font-size: 0.75rem;
 $contact-img-spacing: 0.25rem;
+$footer-margin-bottom: 1.5rem;
+$footer-margin-top: 1.5rem;
 
 .navbar-row {
     background-color: $header-color;
@@ -55,4 +57,50 @@ $contact-img-spacing: 0.25rem;
     float: none;
     display: table-cell;
     vertical-align: bottom;
+}
+
+.footer-row {
+    background-color: $header-color;
+    color: $navbar-text-color;
+    text-align: center;
+}
+
+.pagetop_container {
+    margin: auto;
+    margin-top: $footer-margin-top;
+    margin-bottom: $footer-margin-bottom;
+    text-align: center;
+    display: inline-block
+}
+
+.pagetop_icon {
+    fill: $navbar-text-color;
+    stroke: $navbar-text-color;
+}
+
+.pagetop_link_container {
+    display: inline-block;
+}
+
+.pagetop_icon_pointer {
+    fill: $icon-color;
+    stroke: $icon-color;
+}
+
+.svg_container {
+    display: inline-block;
+}
+
+.svg_container:hover > svg > .pagetop_icon {
+    fill: $icon-hover-color;
+    stroke: $icon-hover-color;
+}
+
+.svg_container:hover > svg > .pagetop_icon_pointer {
+    fill: $header-color;
+    stroke: $header-color;
+}
+
+.pagetop_text {
+    display: block;
 }
