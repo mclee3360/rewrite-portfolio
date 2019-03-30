@@ -1,7 +1,7 @@
 ---
 layout: base
 permalink: about
-title: About Rewrite
+title: About This Website
 img: /assets/img/test-header-bg.png
 ---
 <div class="row section-row">
@@ -9,7 +9,9 @@ img: /assets/img/test-header-bg.png
         {% for section in site.data.about %}
         <div class="row subsection-row">
             <div class="col-md">
-                <h2 class="section-title">{{ section.title }}</h2>
+                {% if section.title != nil %}
+                    <h2 class="section-title">{{ section.title }}</h2>
+                {% endif %}
                 <p class="section-body">{{ section.text }}</p>
             </div>
         </div>

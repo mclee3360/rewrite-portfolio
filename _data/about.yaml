@@ -1,6 +1,12 @@
- - title: "About MAL Rewrite"
+ - text: |
+       This website serves as a portfolio of the written works that I have contributed to as part of MAL Rewrite, whether as a writer, editor, or coordinator. Links to view each synopsis I have worked on are available in the archive, while a handful of my best works are showcased directly on this site.
+ - title: "What is MAL Rewrite?"
    text: |
-       Hello world
+       MAL Rewrite is a volunteer organization on <a href="https://myanimelist.net/" target="_blank">MyAnimeList</a> (MAL) dedicated to writing original, high quality synopses for all the entries on the site. MyAnimeList is the largest online database and community for the type of media it covers, accessed by several million unique visitors every month. Often, synopses for the entries on MAL are simply taken from external sources, such as the publisher or Wikipedia. However, MAL Rewrite was formed to replace these copied synopses with originals that provide the reader with a more thorough, engaging description of what the series is about.<br>
+       <br>
+       Rewrite is mainly made up of writers and editors, while a small group of coordinators lead the organization. After a writer writes a synopsis, the work goes through two phases of editing by two different editors. Finally, a coordinator looks over the edited product to clean up any minor mistakes or style guide infractions, then submits the synopsis for upload to MAL.
  - title: "My Role"
    text: |
-       Hello world
+       I first joined MAL Rewrite in 2015, originally as a writer. After about a year of writing synopses, I applied to move up the ranks as an editor and was accepted. Most of my work as an editor was focused on editing other members' synopses, but I would still occasionally write my own. Being an editor also included the role of evaluating applications for those hoping to join Rewrite as writers, deciding if they would be a good fit for the organization.<br>
+       <br>
+       Once another year had passed, I transitioned into the role of coordinator, which expanded my responsibilities significantly. These responsibilities include giving finished synopses a final check before submitting them for upload, but much of my time is spent on administrative tasks. One major focus of mine is writing scripts to automate administrative processes in Google Drive and Google Sheets, such as maintaining file organization and tracking member activity. The coordinators also rotate writing newsletters that are sent to current and prospective Rewrite members to update them on the status of the organization. Finally, I also run the writer application evaluation process, gathering the editors' comments on the applications to decide whether or not to accept.
