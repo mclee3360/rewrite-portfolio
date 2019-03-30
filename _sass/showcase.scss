@@ -12,6 +12,16 @@ $thumbnail-divide: 1rem;
     height: auto;
 }
 
+#table_filter {
+    text-align: left;
+    margin: auto;
+}
+
+div.dataTables_wrapper > div.dataTables_paginate > ul.pagination {
+    margin-top: 1rem;
+    justify-content: flex-start;
+}
+
 // Vertical Phones
 @media (max-width: 576px) {
     .thumbnail-div {
