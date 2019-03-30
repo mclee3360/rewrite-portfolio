@@ -1,6 +1,6 @@
 @import 'globals';
 
-$navbar-padding: 1rem;
+$navbar-padding: 1.5rem;
 $navbar-text-color: white;
 $contact-font-size: 0.75rem;
 $contact-img-spacing: 0.25rem;
@@ -15,8 +15,15 @@ $footer-margin-top: 1.5rem;
 }
 
 .nav-section-row a {
+    font-style: italic;
+    text-decoration: none;
     color: $navbar-text-color;
+}
+
+.nav-section-row a:hover {
     text-decoration: underline;
+    color: $icon-hover-color;
+    text-shadow: 1px 1px $icon-color;
 }
 
 .contact-col {
@@ -87,18 +94,28 @@ $footer-margin-top: 1.5rem;
     stroke: $icon-color;
 }
 
+.pagetop_text {
+    color: $navbar-text-color;
+}
+
 .svg_container {
     display: inline-block;
 }
 
-.svg_container:hover > svg > .pagetop_icon {
+.pagetop_link_container:hover > .svg_container > svg > .pagetop_icon {
     fill: $icon-hover-color;
     stroke: $icon-hover-color;
 }
 
-.svg_container:hover > svg > .pagetop_icon_pointer {
+.pagetop_link_container:hover > .svg_container > svg > .pagetop_icon_pointer {
     fill: $header-color;
     stroke: $header-color;
+}
+
+.pagetop_link_container:hover > .pagetop_text {
+    color: $icon-hover-color;
+    text-shadow: 1px 1px $icon-color;
+    text-decoration: underline;
 }
 
 .pagetop_text {

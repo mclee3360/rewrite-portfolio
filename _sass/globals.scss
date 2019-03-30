@@ -13,3 +13,28 @@ $header-color: #161616;
 $icon-color: #4d4d4d;
 $icon-hover-color: #e6e6e6;
 $tint-color: rgba(22, 22, 22, 0.25);
+
+// Fonts
+@font-face {
+    font-family: "Raleway";
+    src: url(/assets/fonts/raleway.ttf);
+}
+@font-face {
+    font-family: "Raleway";
+    src: url(/assets/fonts/raleway_bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Raleway";
+    src: url(/assets/fonts/raleway_italic.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: "Roboto Slab";
+    src: url(/assets/fonts/robotoslab.ttf);
+}
+@font-face {
+    font-family: "Roboto Slab";
+    src: url(/assets/fonts/robotoslab_bold.ttf);
+    font-weight: bold;
+}

@@ -11,6 +11,21 @@ html {
 @import 'showcase';
 @import 'all';
 
+body {
+    font-family: "Raleway";
+}
+
+h1, h2, h3 {
+    font-family: "Roboto Slab";
+    // font-weight: bold;
+}
+
+h4, h5, h6 {
+    font-family: "Raleway";
+    color: $icon-color;
+    font-style: italic;
+}
+
 .content-col {
     margin-left: $row-margin-side;
     margin-right: $row-margin-side;
