@@ -1,2 +1,2 @@
-# rewrite-portfolio
-Catalog of works in written and edited in MAL Rewrite
+# Rewrite Portfolio
+My portfolio of works written and edited as part of MAL Rewrite.
